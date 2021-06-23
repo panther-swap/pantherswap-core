@@ -4,6 +4,8 @@ import './interfaces/IPantherFactory.sol';
 import './PantherPair.sol';
 
 contract PantherFactory is IPantherFactory {
+    bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(PantherPair).creationCode));
+
     address public feeTo;
     address public feeToSetter;
 
