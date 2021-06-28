@@ -4,7 +4,7 @@ import './interfaces/IPantherERC20.sol';
 import './libraries/SafeMath.sol';
 
 contract PantherERC20 is IPantherERC20 {
-    using SafeMath for uint;
+    using SafeMathPanther for uint;
 
     string public constant name = 'PantherSwap LPs';
     string public constant symbol = 'PANTHER-LP';
