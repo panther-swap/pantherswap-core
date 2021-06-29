@@ -1,7 +1,7 @@
 {
   "name": "@pantherswap/core",
   "description": "Core contracts for the PantherSwap protocol",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://pantherswap.com",
   "repository": {
     "type": "git",
